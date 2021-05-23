@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Master24.kz",
+    "scheme": "master24.kz",
+    "slug": "Master24",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/images/logo.png",
+      "color": "#c20021",
+      "iosDisplayInForeground": true
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.dytarget.master24",
+      "buildNumber": "1.0.9",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses access to your camera to let you take pictures to post to your orders or set as avatar",
+        "NSPhotoLibraryUsageDescription": "This app uses access to images library to let you choose avatar or pictures for orders from existing images.",
+        "NSLocationWhenInUseUsageDescription": "This app uses location to find current location of user and put it in map as address",
+        "NSPhotoLibraryAddUsageDescription": "This app needs to access your camera roll so that you can upload",
+        "NSLocationAlwaysUsageDescription": "This app requires your location so that we can show you can put as address your current location",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app requires your location so that we can show you can put as address your current location",
+        "NSLocationUsageDescription": "This app requires your location so that we can show you can put as address your current location",
+        "NSCalendarsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSContactsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMicrophoneUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMotionUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSRemindersUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us."
+      }
+    },
+    "android": {
+      "package": "com.dytarget.master24",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD1iFA3Aqk9D8dUkAJr_zeZ1-iP1GXq2os"
+        }
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "http",
+              "host": "app.master24.kz"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "description": "Наймите лучших специалистов! \nMaster24 – биржа специалистов Казахстана!"
+  }
+}

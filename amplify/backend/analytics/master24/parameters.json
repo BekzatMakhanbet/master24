@@ -1,0 +1,21 @@
+{
+    "appName": "master24",
+    "roleName": "pinpointLambdaRolea0122369",
+    "cloudformationPolicyName": "cloudformationPolicya0122369",
+    "cloudWatchPolicyName": "cloudWatchPolicya0122369",
+    "pinpointPolicyName": "pinpointPolicya0122369",
+    "authPolicyName": "pinpoint_amplify_a0122369",
+    "unauthPolicyName": "pinpoint_amplify_a0122369",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

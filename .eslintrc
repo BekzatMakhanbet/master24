@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": "@react-native-community",
+  "rules": {
+    "react-native/no-unused-styles": 0,
+    "react-native/split-platform-components": "off",
+    "react-native/no-inline-styles": 0,
+    "react-native/no-color-literals": 0,
+    "react-native/no-raw-text": "off",
+    "react-native/sort-styles": 0,
+    "react/no-did-mount-set-state": 0,
+    "react/no-did-update-set-state": 0
+  }
+}

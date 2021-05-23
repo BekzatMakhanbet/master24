@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945048620791",
+    "firebase_url": "https://master24.firebaseio.com",
+    "project_id": "master24",
+    "storage_bucket": "master24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945048620791:android:fa04fdc1ddcfcee06c8df2",
+        "android_client_info": {
+          "package_name": "com.dytarget.master24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945048620791-2kn191n4mibp41h8pqc451hbgurdu430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Ceve3gvNXffw3Rlo0R2x4f6hTz6vUOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945048620791-2kn191n4mibp41h8pqc451hbgurdu430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

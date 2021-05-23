@@ -1,0 +1,20 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-master24-master-34842-authRole",
+            "UnauthRoleArn": "arn:aws:iam::264917023327:role/amplify-master24-master-34842-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::264917023327:role/amplify-master24-master-34842-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-master24-master-34842-deployment",
+            "UnauthRoleName": "amplify-master24-master-34842-unauthRole",
+            "StackName": "amplify-master24-master-34842",
+            "StackId": "arn:aws:cloudformation:us-east-1:264917023327:stack/amplify-master24-master-34842/372e7f80-be40-11ea-af96-12f057d255e7",
+            "AmplifyAppId": "d2ex6q5jexr3jc"
+        },
+        "categories": {
+            "auth": {
+                "cognito13daa1ea": {}
+            }
+        }
+    }
+}
